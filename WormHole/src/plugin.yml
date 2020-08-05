@@ -1,0 +1,10 @@
+name: WormHole
+author: Stellrow
+version: 1.1
+api-version: 1.13
+main: me.Stellrow.WormHole.WormHole
+
+commands:
+  wormhole:
+    usage: /wormhole
+    description: Give the player a wormhole potion

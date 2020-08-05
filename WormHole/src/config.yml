@@ -1,0 +1,18 @@
+ItemConfig:
+  type: POTION
+  name: '&9WormHole Potion'
+  lore:
+    - '&7Drink this potion to teleport'
+    - '&7to another player!'
+Messages:
+  no-permission: '&cYou dont have permission to use this command!'
+  request-sent: '&aYou sent a teleport request to the player'
+  request-received: '&7You received a wormhole request from %sender,type &a/wormhole accept &7to accept!'
+  request-accepted: '&7The player accepted your wormhole request,teleporting!'
+  no-requests: '&7You have no wormhole requests!'
+  request-expired: '&7The wormhole request expired!'
+  timeout: '&7You have 15 seconds to accept the request!'
+  player-not-online: '&7The player is no longer online!'
+General:
+  allow-crafting: true
+  insta-teleport: false
